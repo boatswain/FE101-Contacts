@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+}
+ul {
+	list-style: none;
+}
+.contacts {
+	width: 270px;
+	margin: 20px auto;
+	border: #778FBD 1px solid;
+	border-radius: 8px;
+	position: relative;
+}
+h1 {
+    font-size: 14px;
+	width: 260px;
+	line-height: 24px;
+	background-color: #E1E8F5;
+	padding: 0 5px;
+	margin-bottom: 5px;
+	-webkit-border-top-left-radius: 8px;
+  	-webkit-border-top-right-radius: 8px;
+}
+.card-detail {
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 82px;
+	top: 0px;
+	padding: 5px;
+	background-color:  #eee;
+	border: #778FBD 1px solid;
+	z-index: 1;
+	width: 177px;
+	overflow: hidden;
+}
+.card-detail li {
+	padding-bottom: 10px;
+}
+.card-detail li:last-child:{
+	padding-bottom: 0px;
+}
+.card-detail img {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 48px;
+}
+#cards > li {
+	position: relative;
+}
+.name {
+	display: inline-block;
+	width: 70px;
+	padding: 3px 8px 3px 5px;
+	margin-right: 2px;
+	cursor: pointer;
+	border-top: transparent 1px solid;
+	border-bottom: transparent 1px solid;
+	position: relative;
+}
+.name:hover {
+	z-index: 20;
+	background-color: #eee;
+	border-top: #778FBD 1px solid;
+	border-bottom: #778FBD 1px solid;
+}
+.card-info:hover ul {
+	display: block;
+}
+select {
+	position: relative;
+	left: 150px;
+	margin: 5px;
+}
+.footer {	
+	background: -webkit-linear-gradient(top, white, #E6ECF8);
+  	-webkit-border-bottom-left-radius: 8px;
+  	-webkit-border-bottom-right-radius: 8px;
+}
+
+
+
